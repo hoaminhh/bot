@@ -1,6 +1,5 @@
 import discord
 import os
-from dotenv import load_dotenv
 from discord.ext import commands
 from discord import app_commands
 
@@ -241,6 +240,6 @@ async def on_voice_state_update(member, before, after):
 
 
 
-load_dotenv()
+
 TOKEN = os.getenv("TOKEN")
 client.run(TOKEN)
