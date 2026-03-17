@@ -1,3 +1,4 @@
 discord.py
 imageio-ffmpeg
 PyNaCl
+python-dotenv
